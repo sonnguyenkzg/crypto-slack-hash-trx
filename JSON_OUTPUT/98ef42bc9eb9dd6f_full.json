@@ -1,0 +1,254 @@
+{
+  "hash": "98ef42bc9eb9dd6fa5880865bf442ee2cd1b99849b66c2221cd63af5c72dd3c9",
+  "api_url": "https://apilist.tronscan.org/api/transaction-info?hash=98ef42bc9eb9dd6fa5880865bf442ee2cd1b99849b66c2221cd63af5c72dd3c9",
+  "status_code": 200,
+  "timestamp_fetched": "2025-06-17T01:04:43.553298",
+  "data": {
+    "contract_map": {
+      "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t": true,
+      "TSpAswScHnu6WqJDaZzjWEA4ztPSzPRtPZ": false,
+      "TD2EDnLB2ap5deVpGjkRJXSiUKiRZYVGgE": false
+    },
+    "contractRet": "SUCCESS",
+    "data": "",
+    "contractInfo": {
+      "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t": {
+        "isToken": true,
+        "tag1": "USDT Token",
+        "tag1Url": "https://tron.network/usdt",
+        "name": "TetherToken",
+        "risk": false,
+        "publicTagDesc": "",
+        "vip": true,
+        "publicTag": "USDT Token"
+      }
+    },
+    "contractType": 31,
+    "event_count": 1,
+    "project": "",
+    "toAddress": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+    "confirmed": true,
+    "trc20TransferInfo": [
+      {
+        "icon_url": "https://static.tronscan.org/production/logo/usdtlogo.png",
+        "symbol": "USDT",
+        "level": "2",
+        "to_address": "TD2EDnLB2ap5deVpGjkRJXSiUKiRZYVGgE",
+        "contract_address": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+        "type": "Transfer",
+        "decimals": 6,
+        "name": "Tether USD",
+        "vip": true,
+        "tokenType": "trc20",
+        "from_address": "TSpAswScHnu6WqJDaZzjWEA4ztPSzPRtPZ",
+        "amount_str": "35000000000",
+        "status": 0
+      }
+    ],
+    "transfersAllList": [
+      {
+        "icon_url": "https://static.tronscan.org/production/logo/usdtlogo.png",
+        "symbol": "USDT",
+        "level": "2",
+        "to_address": "TD2EDnLB2ap5deVpGjkRJXSiUKiRZYVGgE",
+        "contract_address": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+        "type": "Transfer",
+        "decimals": 6,
+        "name": "Tether USD",
+        "vip": true,
+        "tokenType": "trc20",
+        "from_address": "TSpAswScHnu6WqJDaZzjWEA4ztPSzPRtPZ",
+        "amount_str": "35000000000",
+        "status": 0
+      }
+    ],
+    "block": 72771110,
+    "triggerContractType": 500,
+    "riskTransaction": false,
+    "timestamp": 1748969499000,
+    "info": {},
+    "normalAddressInfo": {
+      "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t": {
+        "risk": false
+      },
+      "TSpAswScHnu6WqJDaZzjWEA4ztPSzPRtPZ": {
+        "risk": false
+      },
+      "TD2EDnLB2ap5deVpGjkRJXSiUKiRZYVGgE": {
+        "risk": false
+      }
+    },
+    "cost": {
+      "net_fee_cost": 1000,
+      "date_created": 1748969499,
+      "fee": 0,
+      "energy_fee_cost": 210,
+      "net_usage": 345,
+      "multi_sign_fee": 0,
+      "net_fee": 0,
+      "energy_penalty_total": 100635,
+      "energy_usage": 0,
+      "energy_fee": 27359850,
+      "energy_usage_total": 130285,
+      "memoFee": 0,
+      "origin_energy_usage": 0
+    },
+    "noteLevel": 1,
+    "addressTag": {},
+    "revert": false,
+    "confirmations": 384148,
+    "fee_limit": 27396600,
+    "tokenTransferInfo": {
+      "icon_url": "https://static.tronscan.org/production/logo/usdtlogo.png",
+      "symbol": "USDT",
+      "level": "2",
+      "to_address": "TD2EDnLB2ap5deVpGjkRJXSiUKiRZYVGgE",
+      "contract_address": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+      "type": "Transfer",
+      "decimals": 6,
+      "name": "Tether USD",
+      "vip": true,
+      "tokenType": "trc20",
+      "from_address": "TSpAswScHnu6WqJDaZzjWEA4ztPSzPRtPZ",
+      "amount_str": "35000000000",
+      "status": 0
+    },
+    "contract_type": "trc20",
+    "trigger_info": {
+      "method": "transfer(address _to,uint256 _value)",
+      "parameter": {
+        "_value": "35000000000",
+        "_to": "TD2EDnLB2ap5deVpGjkRJXSiUKiRZYVGgE"
+      },
+      "methodId": "a9059cbb",
+      "contract_address": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+      "call_value": 0
+    },
+    "signature_addresses": [],
+    "ownerAddress": "TSpAswScHnu6WqJDaZzjWEA4ztPSzPRtPZ",
+    "srConfirmList": [
+      {
+        "address": "TJvaAeFb8Lykt9RQcVyyTFN2iDvGMuyD4M",
+        "name": "Poloniex",
+        "block": 72771110,
+        "url": "https://poloniex.com/"
+      },
+      {
+        "address": "TTW663tQYJTTCtHh6DWKAfexRhPMf2DxQ1",
+        "name": "TRONALLIANCE",
+        "block": 72771111,
+        "url": "http://tronalliance.org"
+      },
+      {
+        "address": "TAQpCTFeJvwdWf6MQZtXXkzWrTS9aymshb",
+        "name": "Abra Capital Management",
+        "block": 72771112,
+        "url": "https://valkyrieinvest.com"
+      },
+      {
+        "address": "TCZvvbn4SCVyNhCAt1L8Kp1qk5rtMiKdBB",
+        "name": "Crypto Labs",
+        "block": 72771113,
+        "url": "CryptoLabs"
+      },
+      {
+        "address": "TGJBjL8wmRVyRStkghnhcVNYYgn6Yjno6X",
+        "name": "BlockAnalysis",
+        "block": 72771114,
+        "url": "blockanalysis"
+      },
+      {
+        "address": "TGyrSc9ZmTdbYziuk1SKEmdtCdETafewJ9",
+        "name": "Luganodes",
+        "block": 72771115,
+        "url": "https://luganodes.com"
+      },
+      {
+        "address": "TSMC4YzUSfySfqKuFnJbYyU3W6PBebBk2E",
+        "name": "Smart Consensus",
+        "block": 72771116,
+        "url": "SmartConsensus"
+      },
+      {
+        "address": "TC6qGw3d6h25gjcM64KLuZn1cznNi5NR6t",
+        "name": "Crypto Innovation Fund",
+        "block": 72771117,
+        "url": "cryptoinnovationfund"
+      },
+      {
+        "address": "TAAdjpNYfeJ2edcETNpad1QpQWJfyBdB9V",
+        "name": "Ant Investment Group",
+        "block": 72771118,
+        "url": "antinvestmentgroup"
+      },
+      {
+        "address": "TQopP5GM68QoqLzpz8YReDfSoCMkvwcZYd",
+        "name": "cryptoAI",
+        "block": 72771119,
+        "url": "https://cryptoai.com"
+      },
+      {
+        "address": "TJBtdYunmQkeK5KninwgcjuK1RPDhyUWBZ",
+        "name": "JD Investment",
+        "block": 72771120,
+        "url": "JDinvestment"
+      },
+      {
+        "address": "TN2W4cc7a4dsYyTLiLMWa9m7jVpdLjGvYs",
+        "name": "HTX.COM",
+        "block": 72771121,
+        "url": "https://www.htx.com/"
+      },
+      {
+        "address": "TVFKwzE8qeETLaZEHMx2tjEsdnujAgAWaA",
+        "name": "BlockchainOrg",
+        "block": 72771122,
+        "url": "http://blockchain.org"
+      },
+      {
+        "address": "TQ4bh4nQknQp33vuf1mUAKu5M5TWW8cTAD",
+        "name": "Intelligence Quant",
+        "block": 72771123,
+        "url": "IntelligenceQuant"
+      },
+      {
+        "address": "TMafrJCuNoYq3mg9dDThfg7c9VP6enZN6j",
+        "name": "metaverse home",
+        "block": 72771124,
+        "url": "metaversehome"
+      },
+      {
+        "address": "TDpt9adA6QidL1B1sy3D8NC717C6L5JxFo",
+        "name": "Chain Cloud",
+        "block": 72771125,
+        "url": "chaincloud"
+      },
+      {
+        "address": "TQhuVjZtmp6k4fPmGZLr4wyXdziCVSPkEX",
+        "name": "Google Cloud",
+        "block": 72771126,
+        "url": "https://cloud.google.com/"
+      },
+      {
+        "address": "TTMNxTmRpBZnjtUnohX84j25NLkTqDga7j",
+        "name": "TronSpark",
+        "block": 72771127,
+        "url": "https://tronspark.com"
+      },
+      {
+        "address": "TH7Fe1W8CcLeqN4LGfqX1R9EpsnrJBQJij",
+        "name": "P2P.ORG",
+        "block": 72771128,
+        "url": "https://www.p2p.org"
+      }
+    ],
+    "hash": "98ef42bc9eb9dd6fa5880865bf442ee2cd1b99849b66c2221cd63af5c72dd3c9",
+    "contractData": {
+      "data": "a9059cbb000000000000000000000041217aa4a32451c8fc5d5d26ce90047e83c6d0128c0000000000000000000000000000000000000000000000000000000826299e00",
+      "owner_address": "TSpAswScHnu6WqJDaZzjWEA4ztPSzPRtPZ",
+      "contract_address": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t"
+    },
+    "internal_transactions": {}
+  },
+  "error": null
+}
