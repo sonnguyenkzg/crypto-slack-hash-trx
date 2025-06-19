@@ -282,6 +282,9 @@ class CompleteTransactionBot:
                 if command == '!help':
                     sheets_status = "✅ Enabled" if (self.sheets_manager and self.sheets_manager.is_connected) else "❌ Disabled"
                     
+                    # Create Google Sheets URL
+                    sheets_url = f"https://docs.google.com/spreadsheets/d/{GOOGLE_SHEET_ID}" if GOOGLE_SHEET_ID else "Not configured"
+                    
                     help_message = f"""🤖 *CryptoHashBot v3.0 - User Guide*
 
 *Available Commands:*
@@ -314,6 +317,10 @@ class CompleteTransactionBot:
 • Professional accounting format
 • Real-time cost calculations  
 • Full transaction audit trail
+• 📋 *View all logged transactions:* <{sheets_url}|Open Transaction Log>
+
+*Transaction Database:*
+All successful !log commands are saved to our comprehensive Google Sheets database with complete transaction details, costs, and audit information.
 
 Ready to analyze TRON transactions! 🚀"""
 
